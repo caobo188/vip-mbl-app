@@ -12,17 +12,17 @@ Page({
     }, 1000)
   },
   // 确认弹框
-  onComfirm: () => {
+  onComfirm () {
     util.confirm('确认删除？', () => {
       console.log('执行确认')
     })
   },
   // 提示框
-  onToast: () => {
+  onToast () {
     util.toast('操作成功')
   },
   // 显示加载框
-  showLoading: () => {
+  showLoading () {
     wx.showLoading({
       title: '加载中...',
     })

@@ -14,11 +14,16 @@ Page({
       url: '../wallet/wallet'
     })
   },
+  getUserInfo () {
+    this.setData({
+      userInfo: app.globalData.userInfo
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.getUserInfo()
+    this.getUserInfo()
   },
 
   /**
@@ -68,12 +73,5 @@ Page({
    */
   onShareAppMessage: function () {
     
-  },
-  getUserInfo: function (e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo
-    })
   }
 })

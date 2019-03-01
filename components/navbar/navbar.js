@@ -6,12 +6,14 @@ Component({
     }
   },
   methods: {
-    onNav(e) {
+    onNav (e) {
       let i = e.currentTarget.dataset.i
       let path = i == 1 ? 'cate' : i == 2 ? 'mine' : 'index'
-      wx.navigateTo({
-        url: `../${path}/${path}`
-      })
+      if (this.properties.current != path) {
+        wx.navigateTo({
+          url: `../${path}/${path}`
+        })
+      }
     }
   }
 })

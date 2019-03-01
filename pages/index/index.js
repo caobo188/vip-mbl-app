@@ -9,13 +9,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../mine/mine'
-    })
-  },
-  onDemo: () => {
+  onDemo () {
     wx.navigateTo({
       url: '../demo/demo'
     })
@@ -61,20 +55,6 @@ Page({
     wx.getLocation({
       success: function(res) {
         // console.log(res)
-      }
-    })
-  },
-  showModal: function () {
-    wx.showModal({
-      title: '提示',
-      content: '确认删除?',
-      showCancel: true,
-      success: function (res) {
-        if (res.confirm) {
-          console.log('确认')
-        } else if (res.cancel) {
-          console.log('取消')
-        }
       }
     })
   }
