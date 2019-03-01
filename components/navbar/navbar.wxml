@@ -1,0 +1,6 @@
+<!--navbar.wxml-->
+<view class="nav-bar">
+  <view class="nav-bar-item {{current == 'index' ? 'active' : ''}}" data-i="0" bindtap="onNav">首页</view>
+  <view class="nav-bar-item {{current == 'cate' ? 'active' : ''}}" data-i="1" bindtap="onNav">分类</view>
+  <view class="nav-bar-item {{current == 'mine' ? 'active' : ''}}" data-i="2" bindtap="onNav">我的</view>
+</view>

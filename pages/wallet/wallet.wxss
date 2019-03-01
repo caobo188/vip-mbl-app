@@ -1,0 +1,31 @@
+.wallet{
+  text-align: center;
+}
+.wallet-title{
+  padding: 80rpx 0;
+  background: #fff;
+}
+.wallet-title-sum{
+  font-weight: bold;
+  color: #000;
+  margin-top: 20rpx;
+}
+.wallet-cate{
+  display: flex;
+  border-top: 1rpx solid #e2e2e2;
+  background: #fff;
+}
+.wallet-cate-item{
+  flex: 1;
+  padding: 20rpx 0;
+}
+.wallet-cate-item:first-child{
+  border-right: 1rpx solid #e2e2e2;
+}
+.wallet-btn-box{
+  margin: 40rpx 0;
+  padding: 0 40rpx;
+}
+.wallet-btn-box button{
+  margin-bottom: 40rpx;
+}

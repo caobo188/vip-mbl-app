@@ -1,0 +1,20 @@
+<view class='wallet'>
+  <view class='wallet-title'>
+    当前可用余额（元）
+    <view class='wallet-title-sum'>90.00</view>
+  </view>
+  <view class='wallet-cate'>
+    <view class='wallet-cate-item'>
+      可用余额（元）
+      <view>90.00</view>
+    </view>
+    <view class='wallet-cate-item'>
+      可提现金额（元）
+      <view>90.00</view>
+    </view>
+  </view>
+  <view class='wallet-btn-box'>
+    <button type='primary'>充值</button>
+    <button type='default'>提现</button>
+  </view>
+</view>

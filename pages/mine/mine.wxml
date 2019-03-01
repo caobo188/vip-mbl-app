@@ -1,0 +1,60 @@
+<view class='profile'>
+  <view class='pf-header'>
+    <view class='pf-avator-box'>
+      <image src="../../assets/avator.jpg" background-size="cover"></image>
+    </view>
+    <view class='pf-info-box'>
+      <text>DrayMond</text>
+      <rich-text>186****3782</rich-text>
+    </view>
+  </view>
+  <view class='pf-bill'>
+    <view class='pf-bill-item'>全部订单</view>
+    <view class='pf-bill-item'>待付款</view>
+    <view class='pf-bill-item'>待收货</view>
+  </view>
+  <view class='pf-asset'>
+    <view class='pf-title'>我的资产</view>
+    <view class='pf-asset-box'>
+      <view class='pf-asset-item'>
+        <text>0张可用</text>
+        <view>优惠券</view>
+      </view>
+      <view class='pf-asset-item'>
+        <text>0</text>
+        <view>VIP</view>
+      </view>
+      <view class='pf-asset-item' bindtap="onWallet">
+        <text>0.00</text>
+        <view>零钱</view>
+      </view>
+      <view class='pf-asset-item'>
+        <text>0.00</text>
+        <view>代金券</view>
+      </view>
+    </view>
+  </view>
+  <view class='pf-cls'>
+    <view class='pf-cls-item'>
+      <view class='pf-cls-label'>VIP俱乐部</view>
+      <text class='pf-cls-text'>10元</text>
+    </view>
+    <view class='pf-cls-item'>
+      <view class='pf-cls-label'>我的口碑</view>
+      <text class='pf-cls-text'>40代金券</text>
+    </view>
+    <view class='pf-cls-item'>
+      <view class='pf-cls-label'>账户与安全</view>
+      <text class='pf-cls-text'></text>
+    </view>
+    <view class='pf-cls-item'>
+      <view class='pf-cls-label'>客服</view>
+      <text class='pf-cls-text'></text>
+    </view>
+    <view class='pf-cls-item'>
+      <view class='pf-cls-label'>关于VIP</view>
+      <text class='pf-cls-text'></text>
+    </view>
+  </view>
+  <navbar current="mine"></navbar>   
+</view>

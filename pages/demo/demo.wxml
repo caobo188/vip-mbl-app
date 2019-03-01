@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="onComfirm">确认框</button>
+  <button bindtap="onToast">提示框</button>
+</view>
