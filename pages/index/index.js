@@ -10,12 +10,11 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onDemo () {
-    wx.navigateTo({
-      url: '../demo/demo'
-    })
+    app.goto('../demo/demo')
   },
   onLoad: function () {
     // this.getLocation()
+    // wx.chooseLocation()
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -53,8 +52,16 @@ Page({
   },
   getLocation: function () {
     wx.getLocation({
+      type: 'gcj02', // 返回可以用于wx.openLocation的经纬度
       success: function(res) {
-        // console.log(res)
+        console.log(res)
+        const latitude = res.latitude
+        const longitude = res.longitude
+        wx.openLocation({
+          latitude,
+          longitude,
+          scale: 18
+        })
       }
     })
   }

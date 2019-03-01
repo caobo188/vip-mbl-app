@@ -9,10 +9,8 @@ Page({
     userInfo: {}
   },
   //跳转至零钱页面
-  onWallet: function () {
-    wx.navigateTo({
-      url: '../wallet/wallet'
-    })
+  onWallet () {
+    app.goto('../wallet/wallet')
   },
   getUserInfo () {
     this.setData({

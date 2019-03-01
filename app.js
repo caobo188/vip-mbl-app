@@ -33,6 +33,11 @@ App({
       }
     })
   },
+  goto (url) {
+    wx.navigateTo({
+      url: url
+    })
+  },
   globalData: {
     userInfo: null
   }

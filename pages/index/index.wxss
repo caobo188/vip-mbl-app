@@ -1,6 +1,6 @@
 /**index.wxss**/
 .home{
-  padding: 20rpx 20rpx 100rpx;
+  padding: 20rpx 20rpx 0;
   position: relative;
 }
 .userinfo {

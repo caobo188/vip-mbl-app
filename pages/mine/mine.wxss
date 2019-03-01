@@ -1,7 +1,4 @@
 /* pages/profile/profile.wxss */
-.profile{
-  padding-bottom: 100rpx;
-}
 .pf-header{
   display: flex;
   align-items: center;

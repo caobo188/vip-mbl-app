@@ -57,6 +57,5 @@
       <view class='pf-cls-label'>关于VIP</view>
       <text class='pf-cls-text'></text>
     </view>
-  </view>
-  <navbar current="mine"></navbar>   
+  </view>  
 </view>
