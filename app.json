@@ -6,7 +6,9 @@
     "pages/mine/mine",
     "pages/wallet/wallet",
     "pages/cate/cate",
-    "pages/bill/bill"
+    "pages/bill/bill",
+    "pages/goods/list/list",
+    "pages/goods/detail/detail"
   ],
   "tabBar": {
     "list": [

@@ -39,8 +39,16 @@ const toast = (title) => {
   })
 }
 
+// 页面跳转
+const goto = (url) => {
+  wx.navigateTo({
+    url: url
+  })
+}
+
 module.exports = {
   formatTime: formatTime,
   confirm: confirm,
-  toast: toast
+  toast: toast,
+  goto: goto
 }

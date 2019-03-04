@@ -1,0 +1,20 @@
+/* pages/goods/list/list.wxss */
+.goods-item{
+  display: flex;
+  align-items: center;
+}
+.goods-item-img{
+  flex: 1;
+}
+.goods-item-img image{
+  width: 200rpx;
+  height: 160rpx;
+}
+.goods-item-detail{
+  padding-left: 30rpx;
+  flex: 3;
+}
+.goods-item-detail .name{
+  font-weight: bold;
+  font-size: 36rpx;
+}

@@ -1,16 +1,16 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+const util = require('../../utils/util.js')
 Page({
   data: {
-    motto: '示例',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  onDemo () {
-    app.goto('../demo/demo')
+  // 跳转至商品详情
+  onGoods () {
+    util.goto('../goods/detail/detail')
   },
   onLoad: function () {
     // this.getLocation()
@@ -54,7 +54,6 @@ Page({
     wx.getLocation({
       type: 'gcj02', // 返回可以用于wx.openLocation的经纬度
       success: function(res) {
-        console.log(res)
         const latitude = res.latitude
         const longitude = res.longitude
         wx.openLocation({

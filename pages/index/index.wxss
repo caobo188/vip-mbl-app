@@ -1,26 +1,24 @@
 /**index.wxss**/
 .home{
-  padding: 20rpx 20rpx 0;
+  padding: 30rpx;
   position: relative;
 }
-.userinfo {
+.product-item{
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.product-item-img{
+  flex: 1;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.product-item-img image{
+  width: 200rpx;
+  height: 160rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
-  text-align: center;
+.product-item-detail{
+  padding-left: 30rpx;
+  flex: 3;
+}
+.product-item-detail .name{
+  font-weight: bold;
+  font-size: 32rpx;
 }
