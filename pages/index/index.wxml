@@ -5,7 +5,7 @@
       <image src="../../assets/img/product.jpg"></image>
     </view>
     <view class="product-item-detail">
-      <text class="name">星巴克咖啡店(高新园店)</text>
+      <text class="name">星巴克咖啡店(世界之窗店)</text>
       <rich-text><text>4.5分</text><text>月销 475单</text></rich-text>
       <rich-text>￥120.00元起</rich-text>
       <text>满30元，立减25元</text>
