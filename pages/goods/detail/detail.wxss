@@ -1,1 +1,14 @@
 /* pages/goods/detail/detail.wxss */
+.goods-detail{
+  padding: 30rpx;
+}
+.goods-detail .head-img{
+  height: 350rpx;
+}
+.goods-detail .head-img image{
+  width: 100%;
+  height: 100%;
+}
+.goods-detail .addr{
+  margin-top: 10rpx;
+}

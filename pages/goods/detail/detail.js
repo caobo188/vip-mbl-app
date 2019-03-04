@@ -7,7 +7,15 @@ Page({
   data: {
 
   },
-
+  onMap() {
+    let latitude = 22.537205
+    let longitude = 113.975635
+    wx.openLocation({
+      latitude,
+      longitude,
+      scale: 18
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,2 +1,7 @@
 <!--pages/goods/detail/detail.wxml-->
-<text>pages/goods/detail/detail.wxml</text>
+<view class="goods-detail">
+  <view class="head-img">
+    <image src="../../../assets/img/product.jpg"></image>
+  </view>
+  <view bindtap='onMap' class='addr'>广东省深圳市南山区深南大道9028号益田假日广场购物中心B1层4号铺</view>
+</view>
