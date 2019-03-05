@@ -51,7 +51,7 @@
       <view class='pf-cls-label'>客服</view>
       <text class='pf-cls-text'></text>
     </view>
-    <view class='pf-cls-item'>
+    <view class='pf-cls-item' bindtap='onAbout'>
       <view class='pf-cls-label'>关于VIP</view>
       <text class='pf-cls-text'></text>
     </view>

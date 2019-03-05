@@ -1,0 +1,4 @@
+<!--pages/about/about.wxml-->
+<view>
+  <map bindmarkertap="markertap" longitude="113.954015" latitude="22.539017"></map>
+</view>

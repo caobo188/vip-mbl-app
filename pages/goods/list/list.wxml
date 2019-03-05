@@ -1,12 +1,12 @@
 <!--index.wxml-->
 <view class="goods-list">
-  <view class="goods-item">
+  <view class="goods-item" wx:for="{{goodsList}}" wx:for-index="idx" wx:key="{{idx}}" wx:for-item="item" bindtap='onGoods' data-idx='{{idx}}'>
     <view class="goods-item-img">
-      <image src="../../assets/img/product.jpg"></image>
+      <image src="../../../assets/img/product.jpg"></image>
     </view>
     <view class="goods-item-detail">
-      <text class="name">星巴克咖啡店(高新园店)</text>
-      <rich-text><text>4.5分</text>月销 475单</rich-text>
+      <text class="name">{{item.name}}</text>
+      <rich-text><text>4.5分</text>月销 {{item.saleCnt}}单</rich-text>
       <text>满30元，立减25元</text>
     </view>
   </view>  

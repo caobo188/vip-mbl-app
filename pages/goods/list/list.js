@@ -5,9 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    goodsList: [
+      {'name': '星巴克咖啡店(高新园店)', 'saleCnt': 70},
+      { 'name': '肯德基(高新园店)', 'saleCnt': 732 },
+      { 'name': '七天酒店', 'saleCnt': 50 },
+      { 'name': '欢乐谷', 'saleCnt': 76 }
+    ]
   },
-
+  onGoods (e) {
+    console.log(e.currentTarget.dataset.idx)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

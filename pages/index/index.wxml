@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="home">
+  <navigator url='../goods/list/list'>查看更多</navigator>
   <view class="product-item" bindtap="onGoods">
     <view class="product-item-img">
       <image src="../../assets/img/product.jpg"></image>

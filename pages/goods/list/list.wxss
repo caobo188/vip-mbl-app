@@ -1,4 +1,7 @@
 /* pages/goods/list/list.wxss */
+.goods-list{
+  padding: 30rpx;
+}
 .goods-item{
   display: flex;
   align-items: center;
@@ -16,5 +19,5 @@
 }
 .goods-item-detail .name{
   font-weight: bold;
-  font-size: 36rpx;
+  font-size: 32rpx;
 }
