@@ -12,7 +12,7 @@ Page({
       { 'name': '欢乐谷', 'saleCnt': 76 }
     ]
   },
-  onGoods (e) {
+  onGoods(e) {
     console.log(e.currentTarget.dataset.idx)
   },
   /**
