@@ -1,4 +1,5 @@
 // pages/goods/list/list.js
+const util = require('../../../utils/util.js')
 Page({
 
   /**
@@ -13,7 +14,7 @@ Page({
     ]
   },
   onGoods(e) {
-    console.log(e.currentTarget.dataset.idx)
+    util.goto('../detail/detail?id=' + e.currentTarget.dataset.idx)
   },
   /**
    * 生命周期函数--监听页面加载

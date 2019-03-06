@@ -8,11 +8,18 @@ Page({
 
   },
 
+  // 画布
+  drawImg () {
+    const ctx = wx.createCanvasContext('myCanvas')
+    ctx.setFillStyle('red')
+    ctx.fillRect(10, 10, 150, 75)
+    ctx.draw()
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.drawImg()
   },
 
   /**

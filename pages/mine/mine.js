@@ -16,6 +16,13 @@ Page({
   onAbout () {
     util.goto('../about/about')
   },
+  onDemo () {
+    util.goto('../demo/demo')
+  },
+  // 打开客服
+  onContact (e) {
+    console.log(e)
+  },
   getUserInfo () {
     this.setData({
       userInfo: app.globalData.userInfo

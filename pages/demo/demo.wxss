@@ -1,1 +1,13 @@
-/**index.wxss**/
+/**demo.wxss**/
+.demo{
+  padding: 30rpx;
+}
+.scroll-view-item{
+  height: 50px;
+}
+.bc_green{
+  background: green;
+}
+.bc_red{
+  background: red;
+}

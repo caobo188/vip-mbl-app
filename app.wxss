@@ -14,6 +14,9 @@ page {
   background: #F3F4F6;
   font-size: 30rpx;
 }
+button{
+  font-size: 32rpx;
+}
 .main-color{
   color: #EE8601;
 }

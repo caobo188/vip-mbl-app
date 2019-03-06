@@ -48,11 +48,15 @@
       <text class='pf-cls-text'></text>
     </view>
     <view class='pf-cls-item'>
-      <view class='pf-cls-label'>客服</view>
+      <button open-type="contact" bindcontact="onContact" class='contact-btn'>客服</button>
       <text class='pf-cls-text'></text>
     </view>
     <view class='pf-cls-item' bindtap='onAbout'>
       <view class='pf-cls-label'>关于VIP</view>
+      <text class='pf-cls-text'></text>
+    </view>
+    <view class='pf-cls-item' bindtap='onDemo'>
+      <view class='pf-cls-label'>演示</view>
       <text class='pf-cls-text'></text>
     </view>
   </view>  

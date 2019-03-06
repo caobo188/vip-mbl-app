@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    goods: {
+      id: ''
+    }
   },
   onMap() {
     let latitude = 22.537205
@@ -20,7 +22,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let id = options.id
+    console.log(id)
   },
 
   /**
