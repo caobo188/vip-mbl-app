@@ -1,0 +1,106 @@
+<!--pages/driving/detail/detail.wxml-->
+<view class='detail'>
+  <view class='cate'>基本信息</view>
+  <view class='detail-item'>
+    <view class='title'>品牌名称</view>
+    <view class='content'>奥迪FV23233</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>车身颜色</view>
+    <view class='content'>白色</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>使用性质</view>
+    <view class='content'>非营运</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>车牌型号</view>
+    <view class='content'>蓝牌</view>
+  </view>
+  <view class='cate'>车型信息</view>
+  <view class='detail-item'>
+    <view class='title'>车辆类型</view>
+    <view class='content'>小型轿车</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>发动机号</view>
+    <view class='content'>88158976</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>发动机型号</view>
+    <view class='content'>涡轮发动机</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>车架号</view>
+    <view class='content'>LH17CKKF76H018248</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>初次登记日期</view>
+    <view class='content'>20061127</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>检验有效期止</view>
+    <view class='content'>20161127</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>机动车所有人</view>
+    <view class='content'>王小艺</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>车辆状态</view>
+    <view class='content'>正常</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>核定载客数</view>
+    <view class='content'>4人</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>强制报废期止</view>
+    <view class='content'>20201127</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>燃料种类</view>
+    <view class='content'>95号</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>排量</view>
+    <view class='content'>1.5</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>出厂日期</view>
+    <view class='content'>20001127</view>
+  </view>
+  <view class='cate'>车身参数</view>
+  <view class='detail-item'>
+    <view class='title'>最大功率</view>
+    <view class='content'>55P</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>轴数</view>
+    <view class='content'>4</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>轴距</view>
+    <view class='content'>2.5</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>前轮距</view>
+    <view class='content'>1.5</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>后轮距</view>
+    <view class='content'>1.5</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>总质量</view>
+    <view class='content'>10T</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>整备质量</view>
+    <view class='content'>100T</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>核定载质量</view>
+    <view class='content'>10T</view>
+  </view>
+</view>

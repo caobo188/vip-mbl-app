@@ -1,0 +1,26 @@
+/* pages/driving/driving.wxss */
+.driving{
+  background: #fff;
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+}
+.form-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #F6F6F6;
+  padding: 30rpx 0;
+}
+.form-item-title{
+  flex: 1;
+}
+.form-item-content{
+  flex: 3;
+}
+.btn-view{
+  margin: 60rpx 30rpx 30rpx;
+}
+.btn{
+  background: #4B81EB;
+  color: #fff;
+  border-radius: 10rpx;
+}

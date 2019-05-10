@@ -51,6 +51,15 @@ Page({
   onToast () {
     util.toast('操作成功')
   },
+  // 显示操作菜单
+  onAction () {
+    wx.showActionSheet({
+      itemList: ['A', 'B', 'C'],
+      success(res) {
+        console.log(res.tapIndex, res)
+      }
+    })
+  },
   // 显示加载框
   showLoading () {
     wx.showLoading({

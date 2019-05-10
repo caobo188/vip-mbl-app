@@ -1,0 +1,35 @@
+<!--pages/driving/detail/detail.wxml-->
+<view class='detail'>
+  <view class='detail-item'>
+    <view class='title'>姓名</view>
+    <view class='content'>王小艺</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>性别</view>
+    <view class='content'>男</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>发证日期</view>
+    <view class='content'>2016-12-12</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>初次领证时间</view>
+    <view class='content'>2016-12-30</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>有效日期</view>
+    <view class='content'>2016-12-12 ~ 2022-12-12</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>驾驶证状态</view>
+    <view class='content'>正常</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>准驾车型</view>
+    <view class='content'>小型汽车</view>
+  </view>
+  <view class='detail-item'>
+    <view class='title'>驾驶证种类</view>
+    <view class='content'>C1</view>
+  </view>
+</view>

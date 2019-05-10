@@ -9,7 +9,12 @@
     "pages/bill/bill",
     "pages/goods/list/list",
     "pages/goods/detail/detail",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/api/api",
+    "pages/driving/index/index",
+    "pages/driving/detail/detail",
+    "pages/vehlic/index/index",
+    "pages/vehlic/detail/detail"
   ],
   "tabBar": {
     "list": [

@@ -24,7 +24,7 @@
         <text>0</text>
         <view>VIP</view>
       </view>
-      <view class='pf-asset-item' bindtap="onWallet">
+      <view class='pf-asset-item' bindtap="onGoto" data-url='../wallet/wallet'>
         <text>0.00</text>
         <view>零钱</view>
       </view>
@@ -35,13 +35,13 @@
     </view>
   </view>
   <view class='pf-cls'>
-    <view class='pf-cls-item'>
-      <view class='pf-cls-label'>VIP俱乐部</view>
-      <text class='pf-cls-text'>10元</text>
+    <view class='pf-cls-item' bindtap="onGoto" data-url='../vehlic/index/index'>
+      <view class='pf-cls-label'>行驶证</view>
+      <text class='pf-cls-text'></text>
     </view>
-    <view class='pf-cls-item'>
-      <view class='pf-cls-label'>我的口碑</view>
-      <text class='pf-cls-text'>40代金券</text>
+    <view class='pf-cls-item' bindtap="onGoto" data-url='../driving/index/index'>
+      <view class='pf-cls-label'>驾驶证验证</view>
+      <text class='pf-cls-text'></text>
     </view>
     <view class='pf-cls-item'>
       <view class='pf-cls-label'>账户与安全</view>
@@ -51,12 +51,16 @@
       <button open-type="contact" bindcontact="onContact" class='contact-btn'>客服</button>
       <text class='pf-cls-text'></text>
     </view>
-    <view class='pf-cls-item' bindtap='onAbout'>
+    <view class='pf-cls-item' bindtap='onGoto' data-url='../about/about'>
       <view class='pf-cls-label'>关于VIP</view>
       <text class='pf-cls-text'></text>
     </view>
-    <view class='pf-cls-item' bindtap='onDemo'>
+    <view class='pf-cls-item' bindtap='onGoto' data-url='../demo/demo'>
       <view class='pf-cls-label'>演示</view>
+      <text class='pf-cls-text'></text>
+    </view>
+    <view class='pf-cls-item' bindtap='onGoto' data-url='../api/api'>
+      <view class='pf-cls-label'>API</view>
       <text class='pf-cls-text'></text>
     </view>
   </view>  

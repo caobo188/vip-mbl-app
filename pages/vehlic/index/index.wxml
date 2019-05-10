@@ -1,0 +1,24 @@
+<!--pages/driving/driving.wxml-->
+<view>
+  <view class='driving'>
+    <view class='form-item'>
+      <view class='form-item-title'>车牌号</view>
+      <view class='form-item-content'>
+        <input placeholder='请输入车牌号'></input>
+      </view>
+    </view>
+    <view class='form-item'>
+      <view class='form-item-title'>号牌种类</view>
+      <view class='form-item-content'>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            请选择{{array[index]}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class='btn-view'>
+    <button class='btn' bindtap='onGoto' data-url='../detail/detail'>查询</button>
+  </view>
+</view>

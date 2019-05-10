@@ -1,0 +1,21 @@
+/* pages/driving/detail/detail.wxss */
+.detail{
+  margin: 30rpx 0;
+  background: #fff;
+  padding: 0 30rpx;
+}
+.detail-item{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #F6F6F6;
+}
+.detail-item .title{
+  flex: 1;
+  color: #666666;
+}
+.detail-item .content{
+  flex: 3;
+  color: #333333;
+  text-align: right;
+}
