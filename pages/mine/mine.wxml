@@ -20,9 +20,9 @@
         <text>0张可用</text>
         <view>优惠券</view>
       </view>
-      <view class='pf-asset-item'>
-        <text>0</text>
-        <view>VIP</view>
+      <view class='pf-asset-item' bindtap="onGoto" data-url='../bank/index/index'>
+        <text>3</text>
+        <view>银行卡</view>
       </view>
       <view class='pf-asset-item' bindtap="onGoto" data-url='../wallet/wallet'>
         <text>0.00</text>

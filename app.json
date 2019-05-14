@@ -14,7 +14,9 @@
     "pages/driving/index/index",
     "pages/driving/detail/detail",
     "pages/vehlic/index/index",
-    "pages/vehlic/detail/detail"
+    "pages/vehlic/detail/detail",
+    "pages/bank/detail/detail",
+    "pages/bank/index/index"
   ],
   "tabBar": {
     "list": [
