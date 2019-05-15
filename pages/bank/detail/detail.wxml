@@ -1,3 +1,56 @@
 <view class='card'>
-  <view>*亚博</view>
+  <view class='user'>
+    <view class='user-name'>
+      <image src='../../../assets/img/avatar.png'></image>
+      <text>*亚博</text>
+    </view>
+    <view class='log-out'>退出登录</view>
+  </view>
+  <view class='main'>
+    <view class='title'>
+      <view class='name'>资产总揽 <image src='../../../assets/img/icon-scan.png'></image></view>
+      <image src='../../../assets/img/icon-ask.png' class='ask'></image>
+    </view>
+    <view class='content'>
+      <view class='name'>我的资产(人民币)</view>
+      <view class='amt'>￥1,052,462.32</view>
+      <view class='ext'>2019如何让您的财富增值</view>
+    </view>
+    <view class='cate'>
+      <view class='item main'>
+        <view class='title'>人民币</view>
+        <view class='sub-txt'>￥1,052,462.32</view>
+      </view>
+      <view class='item sub'>
+        <view class='title'>活期可用余额</view>
+        <view class='sub-txt'>￥1,052,462.32</view>
+      </view>
+      <view class='item sub'>
+        <view class='title'>定期存款</view>
+        <view class='sub-txt'>定存收益，安全稳定</view>
+      </view>
+      <view class='item sub'>
+        <view class='title'>理财基金</view>
+        <view class='sub-txt'>余额理财还款，得18.88元还款金</view>
+      </view>
+      <view class='item sub'>
+        <view class='title'>黄金</view>
+        <view class='sub-txt'>保值增值抗通胀</view>
+      </view>
+      <view class='item sub'>
+        <view class='title'>柜台债券</view>
+        <view class='sub-txt'>持有到期、稳健固定收益</view>
+      </view>
+    </view>
+  </view>
+  <view class='bar'>
+    <view class='item'>
+      <image src='../../../assets/img/icon-home.png' class='ask'></image>
+      <view>首页</view>
+    </view>
+    <view class='item mine'>
+      <image src='../../../assets/img/icon-mine.png' class='ask'></image>
+      <view>我的</view>
+    </view>
+  </view>
 </view>

@@ -1,3 +1,135 @@
 /* pages/bank/detail/detail.wxss */
-.card{
+.user{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #EAEAEA;
+  border-top: 1rpx solid #EAEAEA;
+  margin-bottom: 30rpx;
+}
+.user-name{
+  flex: 1;
+}
+.user-name image{
+  width: 120rpx;
+  height: 120rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.user-name text{
+  font-size: 42rpx;
+  color: #000;
+}
+.log-out{
+  display: inline-block;
+  color: #F59663;
+  border: 1rpx solid #F59663;
+  font-size: 34rpx;
+  padding: 10rpx 50rpx;
+}
+.main{
+  background: #fff;
+  padding: 30rpx;
+}
+.main .title{
+  display: flex;
+  align-items: center;
+}
+.main .title .name{
+  flex: 1;
+  font-size: 42rpx;
+  color: #1E1E1E;
+}
+.main .title .name image{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.main .title .ask{
+  width: 40rpx;
+  height: 40rpx;
+}
+.content{
+  text-align: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #F3F3F3;
+  font-size: 28rpx;
+}
+.content .name{
+  color: #999;
+}
+.content .amt{
+  color: #000;
+  font-size: 60rpx;
+  margin: 20rpx 0 30rpx 0;
+}
+.content .ext{
+  color: #326AD1;
+}
+.cate .item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #F3F3F3;
+  padding: 30rpx 0;
+}
+.cate .item.main .sub-txt{
+  color: #000;
+}
+.cate .item.main .sub-txt:after{
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+  transform: rotate(-45deg);
+}
+.cate .item.main{
+  font-size: 36rpx;
+  color: #000;
+}
+.cate .item.sub{
+  color: #666;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #F3F3F3;
+}
+.cate .item .title{
+  flex: 1;
+}
+.cate .item .sub-txt{
+  color: #999;
+  padding-right: 24rpx;
+}
+.cate .item .sub-txt:after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  right: -14rpx;
+  top: -2rpx;
+  width: 14rpx;
+  height: 14rpx;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  transform: rotate(45deg);
+}
+.bar{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1rpx solid #EDEDED;
+  padding: 16rpx 0;
+  font-size: 30rpx;
+}
+.bar .item{
+  flex: 1;
+  text-align: center;
+  color: #666;
+}
+.bar .item image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.bar .item.mine{
+  color: #F59663;
 }
