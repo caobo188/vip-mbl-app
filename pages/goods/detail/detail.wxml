@@ -4,4 +4,15 @@
     <image src='../../../assets/img/product.jpg'></image>
   </view>
   <view bindtap='onMap' class='addr'>广东省深圳市南山区深南大道9028号益田假日广场购物中心B1层4号铺</view>
+  <view>
+    <button bindtap="onReduce">-</button>
+    <text>{{form.qty}}</text>
+    <button bindtap="onAdd">+</button>
+  </view>
+  <view class='goods-order'>
+    <view class='amt'>220.00元</view>
+    <view class='btn-box'>
+      <button>立即购买</button>
+    </view>
+  </view>
 </view>

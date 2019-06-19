@@ -1,4 +1,5 @@
 // pages/goods/detail/detail.js
+const http = require('../../../utils/http.js')
 Page({
 
   /**
@@ -7,9 +8,17 @@ Page({
   data: {
     goods: {
       id: ''
+    },
+    form: {
+      qty: 1
     }
   },
-  onMap() {
+  getGoodsList () {
+    http.getGoodsList({}, rst => {
+      console.log(rst)
+    })
+  },
+  onMap () {
     let latitude = 22.537205
     let longitude = 113.975635
     wx.openLocation({
@@ -22,8 +31,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let id = options.id
-    console.log(id)
+    this.getGoodsList()
   },
 
   /**
