@@ -13,7 +13,7 @@
     </view>
     <view class='content'>
       <view class='name'>我的资产(人民币)</view>
-      <view class='amt'>￥1,052,462.32</view>
+      <view class='amt'>{{type == 1 ? '￥1,052,462.32' : '￥105.24'}}</view>
       <view class='ext'>2019如何让您的财富增值</view>
     </view>
     <view class='cate'>

@@ -73,12 +73,13 @@
 .pf-cls-item .contact-btn{
   padding-left:40rpx;
   font-size: 32rpx;
-  border: 0;
-  outline: none;
   width: 100%;
   color:#333;
   line-height:inherit;
   text-align:left;
   background:none;
   border-radius:0;
+}
+.pf-cls-item .contact-btn::after{
+  border:0;
 }
