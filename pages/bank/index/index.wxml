@@ -1,4 +1,5 @@
 <view class='bank-list'>
   <navigator url='../detail/detail?type=1'>平安银行</navigator>
+  <navigator url='../detail/detail?type=2'>平安银行</navigator>
   <navigator url='../detail/detail?type=0'>平安银行</navigator>
 </view>

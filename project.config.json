@@ -5,12 +5,15 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"checkSiteMap": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.6.6",
 	"appid": "wx38a4d169b376427f",
 	"projectname": "VIPStore",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

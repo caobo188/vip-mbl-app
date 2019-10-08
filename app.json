@@ -48,5 +48,6 @@
     "scope.userLocation": {
       "desc": "获取位置"
     }
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

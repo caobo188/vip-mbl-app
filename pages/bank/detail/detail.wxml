@@ -13,17 +13,17 @@
     </view>
     <view class='content'>
       <view class='name'>我的资产(人民币)</view>
-      <view class='amt'>{{type == 1 ? '￥1,052,462.32' : '￥105.24'}}</view>
+      <view class='amt'>{{type == 1 ? '￥2,852,462.32' : (type == 2 ? '￥11,537,369.54' : '￥905.24')}}</view>
       <view class='ext'>2019如何让您的财富增值</view>
     </view>
     <view class='cate'>
       <view class='item main'>
         <view class='title'>人民币</view>
-        <view class='sub-txt'>￥1,052,462.32</view>
+        <view class='sub-txt'>{{type == 1 ? '￥2,852,462.32' : (type == 2 ? '￥11,537,369.54' : '￥905.24')}}</view>
       </view>
       <view class='item sub'>
         <view class='title'>活期可用余额</view>
-        <view class='sub-txt'>￥1,052,462.32</view>
+        <view class='sub-txt'>{{type == 1 ? '￥2,852,462.32' : (type == 2 ? '￥11,537,369.54' : '￥905.24')}}</view>
       </view>
       <view class='item sub'>
         <view class='title'>定期存款</view>
@@ -44,13 +44,14 @@
     </view>
   </view>
   <view class='bar'>
-    <view class='item'>
+    <!-- <view class='item'>
       <image src='../../../assets/img/icon-home.png' class='ask'></image>
       <view>首页</view>
     </view>
     <view class='item mine'>
       <image src='../../../assets/img/icon-mine.png' class='ask'></image>
       <view>我的</view>
-    </view>
+    </view> -->
+    <image src="../../../assets/img/bar.png"></image>
   </view>
 </view>
