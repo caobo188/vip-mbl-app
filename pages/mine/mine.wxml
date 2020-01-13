@@ -21,7 +21,7 @@
         <view>优惠券</view>
       </view>
       <view class='pf-asset-item' bindtap="onGoto" data-url='../bank/index/index'>
-        <text>3</text>
+        <text>4</text>
         <view>银行卡</view>
       </view>
       <view class='pf-asset-item' bindtap="onGoto" data-url='../wallet/wallet'>

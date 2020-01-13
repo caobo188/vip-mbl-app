@@ -13,17 +13,17 @@
     </view>
     <view class='content'>
       <view class='name'>我的资产(人民币)</view>
-      <view class='amt'>{{type == 1 ? '￥2,731,433.68' : (type == 2 ? '￥11,310,749.38' : '￥1,164.78')}}</view>
+      <view class='amt'>{{amt}}</view>
       <view class='ext'>财富诊断</view>
     </view>
     <view class='cate'>
       <view class='item main'>
         <view class='title'>人民币</view>
-        <view class='sub-txt'>{{type == 1 ? '￥2,731,433.68' : (type == 2 ? '￥11,310,749.38' : '￥1,164.78')}}</view>
+        <view class='sub-txt'>{{amt}}</view>
       </view>
       <view class='item sub'>
         <view class='title'>活期可用余额</view>
-        <view class='sub-txt'>{{type == 1 ? '￥2,731,433.68' : (type == 2 ? '￥11,310,749.38' : '￥1,164.78')}}</view>
+        <view class='sub-txt'>{{amt}}</view>
       </view>
       <view class='item sub'>
         <view class='title'>定期存款</view>

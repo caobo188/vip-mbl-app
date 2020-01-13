@@ -5,15 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    type: 1
+    amt: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let type = options.type
+    let amt = ''
+    if (type == 1) {
+      amt = '2,731,433.68'
+    } else if (type == 2) {
+      amt = '11,310,749.38'
+    } else if (type == 3) {
+      amt = '712,876.23'
+    } else {
+      amt = '1,164.78'
+    }
     this.setData({
-      type: options.type
+      amt: amt
     })
   },
 
